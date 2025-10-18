@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "./variables.css";
+
+:root {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  min-height: 80vh;
+}
