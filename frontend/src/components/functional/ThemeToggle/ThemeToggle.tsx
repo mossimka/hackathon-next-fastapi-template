@@ -5,7 +5,7 @@ import { useTheme } from '@/components/layout/ThemeProvider';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import Styles from './ThemeToggle.module.css';
 
-export const ThemeToggleButton = () => {
+const ThemeToggleButton = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
@@ -18,3 +18,5 @@ export const ThemeToggleButton = () => {
     </button>
   );
 };
+
+export default ThemeToggleButton;

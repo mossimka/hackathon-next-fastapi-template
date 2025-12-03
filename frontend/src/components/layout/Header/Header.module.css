@@ -1,0 +1,21 @@
+.Header {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--color-bg-secondary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonsContainer {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 9fr 1fr;
+}
